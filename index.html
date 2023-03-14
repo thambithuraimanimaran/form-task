@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form task</title>
+    <style>
+       .table, th, tr, td{
+        border: 2px solid red;
+        padding: 4px;
+        text-align: left;
+       } 
+       .form{
+        text-align: center;
+        border: 2px solid blue;
+        display: inline-block;
+        margin-left: 35%;
+        border-radius: 10px;
+        background-color: aqua;
+        padding: 35px;
+        font-style: initial;
+
+        
+       }
+       .click-me{
+        background-color: rgb(0, 208, 255);
+        padding: 5px;
+        width: 6rem;
+        margin: 2px;
+        border-radius: 3px;
+       }
+       button:hover{
+        background-color: rgb(225, 222, 26);
+       }
+       
+
+
+    </style>
+</head>
+<body>
+    
+    <form action="" class="form">
+    <label for="first name">First name</label><br>
+    <input type="text" placeholder="first name"><br>
+    <label for="last name">Last name</label><br>
+    <input type="text" placeholder="last name"><br>
+    <label for="address">Address</label><br>
+    <input type="text" placeholder="address"><br>
+    <label for="pincode">Pincode</label><br>
+    <input type="number" placeholder="pincode" ><br>
+    <label for="gender">Gender</label><br>
+    <input type="text" placeholder="gender"><br>
+    
+    <label for="state">State</label><br>
+    <input type="text" placeholder="state"><br>
+    <label for="country">Country</label><br>
+    <input type="text" placeholder="country"><br>
+
+        <h4>choice of food</h4>
+        <input type="checkbox" value="Idly" class="idly">
+        <label for="idly" >Idly</label>
+        <input type="checkbox" value="Dosa">
+        <label for="dosa" >Dosa</label>
+        <input type="checkbox" value="Chappathi">
+        <label for="chappathi" >Chappathi</label>
+        <input type="checkbox" value="Poori">
+        <label for="poori" >Poori</label>
+        <input type="checkbox" value="Vada">
+        <label for="vada" >Vada</label><br><br>
+
+        <button class="click-me">Submit</button><br>
+
+    </form><br><br>
+    <table class="table">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Address</th>
+        <th>Pincode</th>
+        <th>Gender</th>
+        <th>State</th>
+        <th>Country</th>
+        <th>Food</th>
+    </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
